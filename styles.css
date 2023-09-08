@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente principal */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Alineación del texto */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño de fuente del encabezado principal */
+}
+
+/* Estilos para el enlace de navegación */
+nav ul {
+    list-style-type: none; /* Elimina las viñetas de la lista */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav a {
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color del enlace */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Transición de color suave */
+}
+
+nav a:hover {
+    color: #f00; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilos para la sección Acerca de Mí */
+#acerca {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Espaciado interior */
+}
+
+#acerca h2 {
+    font-size: 24px; /* Tamaño de fuente para los encabezados de sección */
+}
+
+/* Estilos para el artículo */
+article {
+    margin: 20px; /* Margen exterior */
+}
+
+article h1 {
+    font-size: 28px; /* Tamaño de fuente para los títulos de artículo */
+}
+
+/* Estilos para las imágenes en el artículo */
+article img {
+    max-width: 100%; /* Ancho máximo del 100% para que las imágenes sean responsivas */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Elimina el espacio adicional debajo de las imágenes */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    margin-top: 20px; /* Margen superior del formulario */
+}
+
+label {
+    display: block; /* Muestra las etiquetas en una línea separada */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Espacio inferior de la etiqueta */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo del campo de entrada de texto */
+    padding: 10px; /* Espaciado interior del campo de entrada */
+    margin-bottom: 15px; /* Espacio inferior del campo de entrada */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+input[type="submit"] {
+    background-color: #333; /* Color de fondo del botón de enviar */
+    color: #fff; /* Color del texto del botón de enviar */
+    padding: 10px 20px; /* Espaciado interior del botón de enviar */
+    border: none; /* Borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el cursor sobre el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #f00; /* Cambia el color del botón al pasar el cursor */
+}

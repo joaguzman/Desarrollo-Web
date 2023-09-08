@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Joaquin Rodrigo Guzman</h1>
+        <p>Me gusta programar vivo en villa mitre y me gustan los autos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de Mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="acerca">
+        <h2>Experiencia Academica o Personal</h2>
+        <p>Mi experiencia academica en la primaria, mi primaria de la escuela Guemes y mi secundaria en el Instituto Guemes y el terciario actualmente en el Instituto Del milagro</p>
+    </section>
+    <h1>Contacto</h1>
+    <form action="/procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <article>
+        <h1>Ford Shelby Vs Dodge Challenger </h1>
+        <p>Fecha de publicación: <time datetime="2023-09-08">8 de Septiembre de 2023</time></p>
+        
+        <section>
+            <h2>Introducción</h2>
+            <p>La competencia de Ford Vs Dodge en sus autos topes de gama</p>
+        </section>
+
+        <section>
+            <h2>Sección 1</h2>
+            <p>Tenemos en la marca Ford el auto top de su gama</p>
+        </section>
+
+        <figure>
+            <img src="foto.jpg" alt="Descripción de la imagen" width="800" height="500">
+            <figcaption>FORD Shelby GT500</figcaption>
+        </figure>
+
+        <section>
+            <h2>Sección 2</h2>
+            <p>Tenemos en la marca de Dodge el auto top de su gama</p>
+        </section>
+
+        <figure>
+            <img src="foto2.jpg" alt="Descripción de la imagen" width="800" height="500">
+            <figcaption>Dodge Challenger Hellcat</figcaption>
+        </figure>
+
+    </article>
+
+    
+
+</body>
+</html>
