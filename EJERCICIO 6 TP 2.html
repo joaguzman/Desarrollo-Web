@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body {.css">
+    <title>Mi Página Personal</title>
+</head>
+<body>
+    <header>
+        <h1>Joaquin Guzman</h1>
+        <p>Me gusta programar y los autos</p>
+    </header>
+
+    <section id="resumen">
+        <h2>Resumen</h2>
+        <p>Soy un estudiante del instituto del milagro</p>
+    </section>
+
+    <section id="intereses">
+        <h2>Intereses y Pasatiempos</h2>
+        <ul>
+            <li>Programación web</li>
+            <li>Salir a andar en bici</li>
+            <li>Los autos</li>
+        </ul>
+    </section>
+
+    <h2>Contacto</h2>
+    <form action="/procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <h2>Información de Contacto</h2>
+        <p>Email:joaguzman@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/joaguzman" target="_blank">joaguzman</a></p>
+        <p>Twitter: <a href="https://twitter.com/joaguzman" target="_blank">@joaguzman</a></p>
+    </footer>
+</body>
+</html>
